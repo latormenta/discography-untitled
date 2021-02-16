@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 50px;
+}
+
+header {
+  height: 100px;
+  background-color: rgb(60, 60, 60);
+  background-image: radial-gradient(white 10%, transparent 10%);
+  background-size: 3px 3px;
+}
+
+header h1 {
+  font-size: 40px;
+  font-family: 'Times New Roman';
+  line-height: 100px;
+  color: white;
+  letter-spacing: 8px;
+}
+
+.jacket-wrapper {
+  text-align: center;
+  padding: 55px 0 20px 0;
+}
+
+.jacket-wrapper img {
+  width: 400px;
+  display: inline-block;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  margin: 0 30px;
+}
+
+.jacket-wrapper img:hover {
+  transform: scale(1.05, 1.05);
+  transition: all 0.3s;
+}
+
+.data-wrapper {
+  text-align: center;
+  font-family: Arial;
+  margin-bottom: 50px;
+}
+
+.release-type {
+  display: inline-block;
+  margin: 0 200px;
+  font-weight: bolder;
+}
+
+.release-date {
+  margin: 30px 0 15px 0;
+}
+
+.album-title {
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.sub {
+  letter-spacing: 1px;;
+}
+
+.explain-wrapper {
+  width: 830px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 14px;
+  padding-bottom: 50px;
+}
+
+.explain-wrapper p {
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
+.limited-edition {
+  vertical-align: top;
+  margin-right: 25px;
+  padding: 20px 35px 40px 35px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  margin-bottom: 80px;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.normal-edition {
+  vertical-align: top;
+  padding: 20px 35px 40px 35px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  margin-bottom: 80px;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.detail-wrapper {
+  margin: 0 auto;
+}
+
+.f-container {
+  display: flex;
+  justify-content: center;
+}
+
+.detail-wrapper h3 {
+  font-size: 20px;
+  margin: 25px 0 12px 0;
+  text-align: center;
+}
+
+.jaca-price {
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.item {
+  font-size: 14px;
+}
+
+.booklet {
+  margin: 35px 0 20px 0;
+  padding: 8px;
+  color: white;
+  background-color:rgb(50, 50, 50);
+  border-radius: 2px;
+}
+
+.cd-dvd {
+  margin-bottom: 15px;
+}
+
+.second {
+  margin-top: 20px;
+}
+
+.songs p {
+  padding: 2px 0;
+}
